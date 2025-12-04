@@ -108,8 +108,6 @@ streamlit run app.py
 ---
 
 
-No file chosenNo file chosen
-
 ## 📁 Project Structure (target)
 
 ```text
