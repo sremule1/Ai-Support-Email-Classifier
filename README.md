@@ -1,10 +1,10 @@
 # AI Support Email Classifier
 
-This project is a small end-to-end demo that uses AI to automatically
-classify customer support emails into categories like **Billing**,
-**Technical Issue**, **Account Help**, **Complaint**, and **Other**, then
-shows simple analytics in a dashboard.
+This project is a complete end-to-end mini system that uses AI to read customer support emails and automatically sort them into helpful categories such as Billing, Technical Issue, Account Help, Complaint, and Other.
 
+Instead of manually reading through each message, the system uses an AI model to understand the content of every email, assign it to the correct category, save the results, and then display simple insights in an interactive dashboard.
+
+This shows how AI can streamline customer support by reducing workload and helping teams prioritize issues more efficiently.
 
 
 ---
