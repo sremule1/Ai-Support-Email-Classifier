@@ -138,15 +138,15 @@ streamlit run app.py
 ## 📁 Project Structure (target)
 
 ```text
+```text
 Ai-Support-Email-Classifier/
 │
-├── data/
-│   └── emails.csv              # sample raw emails
-│
-├── src/
-│   ├── classify_emails.py      # uses AI to label each email
-│   └── app.py                  # Streamlit dashboard
-│
+├── data/                      # (optional folder for datasets)
+├── emails.csv                 # sample raw emails
+├── classified_emails.csv      # sample classified output
+├── classify_emails.py         # email classifier script
+├── app.py                     # Streamlit dashboard
+├── AI screenshot.png          # dashboard screenshot
 ├── requirements.txt
 └── README.md
 
