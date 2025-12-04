@@ -82,6 +82,29 @@ This shows how AI can streamline customer support by reducing workload and helpi
 ```bash
 git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
 cd Ai-Support-Email-Classifier
+🚀 Installation & Running the App
+1️⃣ Clone the repository
+git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
+cd Ai-Support-Email-Classifier
+
+2️⃣ Create & activate a virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Add your OpenAI API key
+
+In PowerShell:
+
+$env:OPENAI_API_KEY="your_api_key_here"
+
+5️⃣ Run the classifier
+python classify_emails.py
+
+6️⃣ Launch the dashboard
+streamlit run app.py
 ---
 ## 📁 Project Structure (target)
 
