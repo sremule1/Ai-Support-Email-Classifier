@@ -5,8 +5,7 @@ classify customer support emails into categories like **Billing**,
 **Technical Issue**, **Account Help**, **Complaint**, and **Other**, then
 shows simple analytics in a dashboard.
 
-> Perfect portfolio project for an Information Systems student who wants
-> a role in AI / data / product at companies like Google or Apple.
+
 
 ---
 
