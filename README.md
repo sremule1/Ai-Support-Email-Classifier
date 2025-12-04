@@ -47,36 +47,61 @@ This shows how AI can streamline customer support by reducing workload and helpi
 
 
 ---
-## 🧠 How it works (step-by-step)
+🧠 How It Works (Step-by-Step)
+1️⃣ Input Data
 
-1. **Input data**
-   - The project starts with a CSV file: `emails.csv`
-   - It has one column: `email_text` with raw customer support messages.
+The project starts with a CSV file named emails.csv
 
-2. **Classify emails**
-   - `classify_emails.py` reads `emails.csv` with pandas.
-   - For each row, it calls `classify_email(text)` which uses a **simple rule-based classifier** (offline, no API required) to assign one of these labels:
-     - `Billing`
-     - `Technical Issue`
-     - `Account Help`
-     - `Complaint`
-     - `Other`
+Contains a single column: email_text
 
-3. **Save results**
-   - The script writes a new file: `classified_emails.csv`
-   - This file contains the original email text plus the predicted category.
+2️⃣ Classify Emails
 
-4. **Visualize in a dashboard**
-   - `app.py` (Streamlit) loads `classified_emails.csv`.
-   - It:
-     - Counts how many emails fall into each category.
-     - Displays a bar chart using Plotly.
-     - Shows a table of sample classified emails.
-   - The dashboard runs locally in the browser at `http://localhost:8501`.
+classify_emails.py:
 
----
-## 🚀 Deployment / Running instructions
+Loads emails using Pandas
 
+Processes each message through classify_email(text)
+
+Current version uses a rule-based classifier (offline, no API required)
+
+Assigns one of the following labels:
+
+Billing
+
+Technical Issue
+
+Account Help
+
+Complaint
+
+Other
+
+3️⃣ Save Results
+
+Output is written to classified_emails.csv
+
+Includes:
+
+Original email
+
+Predicted category
+
+4️⃣ Visualize in a Dashboard
+
+app.py (Streamlit):
+
+Loads classified_emails.csv
+
+Shows:
+
+A bar chart of email category counts
+
+A table displaying all classified messages
+
+Dashboard runs locally at:
+http://localhost:8501
+
+🚀 Installation & Running the App
 1️⃣ Clone the Repository
 git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
 cd Ai-Support-Email-Classifier
@@ -90,7 +115,7 @@ pip install -r requirements.txt
 
 4️⃣ (Optional) Add Your OpenAI API Key
 
-Only needed if you upgrade to real AI classification:
+Only required if upgrading to LLM-based classification:
 
 $env:OPENAI_API_KEY="your_api_key_here"
 
@@ -99,7 +124,7 @@ python classify_emails.py
 
 6️⃣ Launch the Dashboard
 streamlit run app.py
----
+
 ## 📁 Project Structure (target)
 
 ```text
