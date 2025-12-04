@@ -50,13 +50,13 @@ This shows how AI can streamline customer support by reducing workload and helpi
 
 ## 🧠 How it works (step-by-step)
 
-1.  Input Data
+## 1.   Input Data
 
 Project begins with emails.csv
 
 Contains one column: email_text
 
-2️.  Classify Emails
+## 2️.  Classify Emails
 
 classify_emails.py:
 
@@ -76,7 +76,7 @@ Complaint
 
 Other
 
-3️.  Save Results
+## 3️.  Save Results
 
 Output is saved to classified_emails.csv
 
@@ -86,7 +86,7 @@ Original message
 
 Predicted category
 
-4️.  Visualize in Dashboard
+## 4️.  Visualize in Dashboard
 
 app.py (Streamlit):
 
