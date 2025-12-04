@@ -48,7 +48,7 @@ shows simple analytics in a dashboard.
 
 
 ---
-🧠 How it works (step-by-step)
+## 🧠 How it works (step-by-step)
 
 1. **Input data**
    - The project starts with a CSV file: `emails.csv`
