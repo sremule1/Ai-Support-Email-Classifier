@@ -10,8 +10,27 @@ shows simple analytics in a dashboard.
 
 ---
 
+
+![AI Dashboard Screenshot](./AI%20screenshot.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🧩 Features
-![Dashboard](images/dashboard.png)
+
 
 - Upload or load a CSV file of sample support emails  
 - Use an LLM (e.g. OpenAI GPT) to classify each email  
