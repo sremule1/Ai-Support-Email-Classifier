@@ -64,38 +64,4 @@ Ai-Support-Email-Classifier/
 ├── requirements.txt
 └── README.md
 
-🧠 How it works (step-by-step)
 
-1. **Input data**
-   - The project starts with a CSV file: `emails.csv`
-   - It has one column: `email_text` with raw customer support messages.
-
-2. **Classify emails**
-   - `classify_emails.py` reads `emails.csv` with pandas.
-   - For each row, it calls `classify_email(text)` which uses a **simple rule-based classifier** (offline, no API required) to assign one of these labels:
-     - `Billing`
-     - `Technical Issue`
-     - `Account Help`
-     - `Complaint`
-     - `Other`
-
-3. **Save results**
-   - The script writes a new file: `classified_emails.csv`
-   - This file contains the original email text plus the predicted category.
-
-4. **Visualize in a dashboard**
-   - `app.py` (Streamlit) loads `classified_emails.csv`.
-   - It:
-     - Counts how many emails fall into each category.
-     - Displays a bar chart using Plotly.
-     - Shows a table of sample classified emails.
-   - The dashboard runs locally in the browser at `http://localhost:8501`.
-
-
-## 🚀 Deployment / Running instructions
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
-cd Ai-Support-Email-Classifier
