@@ -82,7 +82,9 @@ This shows how AI can streamline customer support by reducing workload and helpi
 ```bash
 git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
 cd Ai-Support-Email-Classifier
+
 🚀 Installation & Running the App
+
 1️⃣ Clone the repository
 git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
 cd Ai-Support-Email-Classifier
