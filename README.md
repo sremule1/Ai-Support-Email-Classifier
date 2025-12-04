@@ -50,37 +50,64 @@ This shows how AI can streamline customer support by reducing workload and helpi
 
 ## 🧠 How it works (step-by-step)
 
-1. **Input data**
-   - The project starts with a CSV file: `emails.csv`
-   - It has one column: `email_text` with raw customer support messages.
+1.  Input Data
 
-2. **Classify emails**
-   - `classify_emails.py` reads `emails.csv` with pandas.
-   - For each row, it calls `classify_email(text)` which uses a **simple rule-based classifier** (offline, no API required) to assign one of these labels:
-     - `Billing`
-     - `Technical Issue`
-     - `Account Help`
-     - `Complaint`
-     - `Other`
+Project begins with emails.csv
 
-3. **Save results**
-   - The script writes a new file: `classified_emails.csv`
-   - This file contains the original email text plus the predicted category.
+Contains one column: email_text
 
-4. **Visualize in a dashboard**
-   - `app.py` (Streamlit) loads `classified_emails.csv`.
-   - It:
-     - Counts how many emails fall into each category.
-     - Displays a bar chart using Plotly.
-     - Shows a table of sample classified emails.
-   - The dashboard runs locally in the browser at `http://localhost:8501`.
+2️.  Classify Emails
+
+classify_emails.py:
+
+Loads data with Pandas
+
+Uses classify_email(text) (rule-based, offline)
+
+Assigns one of:
+
+Billing
+
+Technical Issue
+
+Account Help
+
+Complaint
+
+Other
+
+3️.  Save Results
+
+Output is saved to classified_emails.csv
+
+Includes:
+
+Original message
+
+Predicted category
+
+4️.  Visualize in Dashboard
+
+app.py (Streamlit):
+
+Loads the classified CSV
+
+Shows:
+
+A bar chart of categories
+
+A table of labeled emails
+
+Runs at:
+
+👉 http://localhost:8501
 
 ---
 ## 🚀 Deployment / Running instructions
 
 ## 1️⃣Clone the Repository
 
-git clone https://github.com/sremule1/Ai-Support-Email-Classifier.git
+git clone https://github.com/...
 cd Ai-Support-Email-Classifier
 
 ## 2️⃣Create & Activate a Virtual Environment
