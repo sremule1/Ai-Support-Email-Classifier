@@ -52,51 +52,51 @@ This shows how AI can streamline customer support by reducing workload and helpi
 
 ## 1.   Input Data
 
-Project begins with emails.csv
+- Project begins with emails.csv
 
-Contains one column: email_text
+- Contains one column: email_text
 
 ## 2️.  Classify Emails
 
-classify_emails.py:
+ classify_emails.py:
 
-Loads data with Pandas
+    - Loads data with Pandas
 
-Uses classify_email(text) (rule-based, offline)
+    - Uses classify_email(text) (rule-based, offline)
 
-Assigns one of:
+    - Assigns one of:
 
-Billing
+          - Billing
 
-Technical Issue
+          - Technical Issue
 
-Account Help
+          - Account Help
 
-Complaint
+          - Complaint
 
-Other
+          - Other
 
 ## 3️.  Save Results
 
-Output is saved to classified_emails.csv
+  Output is saved to classified_emails.csv
 
-Includes:
+  Includes:
 
-Original message
+    - Original message
 
-Predicted category
+    - Predicted category
 
 ## 4️.  Visualize in Dashboard
 
 app.py (Streamlit):
 
-Loads the classified CSV
+  Loads the classified CSV
 
-Shows:
+  Shows:
 
-A bar chart of categories
+        - A bar chart of categories
 
-A table of labeled emails
+        - A table of labeled emails
 
 Runs at:
 
