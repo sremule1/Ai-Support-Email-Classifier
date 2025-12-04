@@ -11,8 +11,9 @@ This shows how AI can streamline customer support by reducing workload and helpi
 
 
 ## 📸 AI Dashboard Screenshot
-![AI Dashboard Screenshot](./AI%20screenshot.png)
-
+<p align="center">
+  <img src="./AI screenshot.png" width="800">
+</p>
 
 
 
