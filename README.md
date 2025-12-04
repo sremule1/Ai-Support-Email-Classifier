@@ -11,6 +11,7 @@ shows simple analytics in a dashboard.
 ---
 
 ## 🧩 Features
+![Dashboard](images/dashboard.png)
 
 - Upload or load a CSV file of sample support emails  
 - Use an LLM (e.g. OpenAI GPT) to classify each email  
@@ -24,7 +25,8 @@ shows simple analytics in a dashboard.
 - **Python** (3.9+)
 - **Pandas** for data handling  
 - **OpenAI API** (or another LLM API) for classification  
-- **Streamlit** for the dashboard  
+- **Streamlit** for the dashboard
+
 
 ---
 
